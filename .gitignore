@@ -1,0 +1,7 @@
+.DS_Store
+config.env
+work/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage

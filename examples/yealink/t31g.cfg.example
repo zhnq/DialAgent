@@ -1,0 +1,10 @@
+# Illustrative Yealink provisioning fragment. Field names vary by firmware.
+# Use your phone's supported provisioning guide and your own private addresses.
+
+# A DSS key can place a direct IP call to the Mac receiver.
+linekey.1.type = 13
+linekey.1.label = VOICE
+linekey.1.value = 192.168.50.10
+
+# Optional Action URL experiment; not required by the SIP voice path.
+# action_url.handfree = http://192.168.50.10:8765/v1/trigger?event=handfree&token=REPLACE_ME
