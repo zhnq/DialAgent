@@ -55,7 +55,7 @@ See [docs/architecture.md](docs/architecture.md) for boundaries and tradeoffs.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_ACCOUNT/dialagent.git
+git clone https://github.com/zhnq/DialAgent.git
 cd dialagent
 cp config.example.env config.env
 ./scripts/build_macos_helpers.sh
